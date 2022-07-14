@@ -5,6 +5,9 @@
   "repository": "git@github.com:GabrielliMelo/back.git",
   "author": "Gabrielli5047 <gabrielli.meloo16@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
@@ -14,6 +17,7 @@
     "husky": "^8.0.1"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }
