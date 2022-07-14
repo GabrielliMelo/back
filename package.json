@@ -7,12 +7,10 @@
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3"
-  },
-  "scripts": {
-    "prepare": "husky install"
- },
-  "dependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint": "^7.32.0 || ^8.2.0",
     "husky": "^8.0.1"
   }
 }
