@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const axiosRequest = axios.create({
-  baseURL: 'https://pokeapi.co/api/v2/',
+  baseURL: process.env.POKEMON_API_URL,
   timeout: 10000,
   headers: { 'Content-Type': 'application/json' },
 });
