@@ -6,7 +6,8 @@
   "author": "Gabrielli5047 <gabrielli.meloo16@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
