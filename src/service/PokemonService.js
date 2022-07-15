@@ -15,4 +15,9 @@ const getAllPokemons = async ({ limit, page }) => {
   return pokemonsWithInfos;
 };
 
-module.exports = { getAllPokemons };
+const getPokemon = async ({ name }) => {
+  const { data: pokemonInfo } = await axiosRequest.get(`pokemon/${name}`);
+  return pokemonInfo;
+};
+
+module.exports = { getAllPokemons, getPokemon };
